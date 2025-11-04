@@ -1,0 +1,5 @@
+C:/Users/jdrga/Downloads/stm32cubewl-v1-3-0/STM32Cube_FW_WL_V1.3.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node/Core/Src/adc_if.c:181:17:ADC_ReadChannels	4
+C:/Users/jdrga/Downloads/stm32cubewl-v1-3-0/STM32Cube_FW_WL_V1.3.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node/Core/Src/adc_if.c:79:6:SYS_InitMeasurement	1
+C:/Users/jdrga/Downloads/stm32cubewl-v1-3-0/STM32Cube_FW_WL_V1.3.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node/Core/Src/adc_if.c:90:6:SYS_DeInitMeasurement	1
+C:/Users/jdrga/Downloads/stm32cubewl-v1-3-0/STM32Cube_FW_WL_V1.3.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node/Core/Src/adc_if.c:139:10:SYS_GetBatteryLevel	3
+C:/Users/jdrga/Downloads/stm32cubewl-v1-3-0/STM32Cube_FW_WL_V1.3.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node/Core/Src/adc_if.c:97:9:SYS_GetTemperatureLevel	2

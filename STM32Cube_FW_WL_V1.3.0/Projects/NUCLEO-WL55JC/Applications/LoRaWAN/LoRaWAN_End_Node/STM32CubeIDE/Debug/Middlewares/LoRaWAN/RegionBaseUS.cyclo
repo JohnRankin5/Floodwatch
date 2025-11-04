@@ -1,0 +1,4 @@
+C:/Users/jdrga/Downloads/stm32cubewl-v1-3-0/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionBaseUS.c:48:24:FindAvailable125kHzChannels	5
+C:/Users/jdrga/Downloads/stm32cubewl-v1-3-0/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionBaseUS.c:74:17:RegionBaseUSComputeNext125kHzJoinChannel	11
+C:/Users/jdrga/Downloads/stm32cubewl-v1-3-0/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionBaseUS.c:135:6:RegionBaseUSVerifyFrequencyGroup	4
+C:/Users/jdrga/Downloads/stm32cubewl-v1-3-0/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/Region/RegionBaseUS.c:146:10:RegionBaseUSCalcDownlinkFrequency	1

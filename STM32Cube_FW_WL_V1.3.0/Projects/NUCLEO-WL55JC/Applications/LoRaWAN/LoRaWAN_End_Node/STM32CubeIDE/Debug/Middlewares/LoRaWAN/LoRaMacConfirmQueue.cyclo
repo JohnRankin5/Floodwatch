@@ -1,0 +1,17 @@
+C:/Users/jdrga/Downloads/stm32cubewl-v1-3-0/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.c:82:28:IncreaseBufferPointer	2
+C:/Users/jdrga/Downloads/stm32cubewl-v1-3-0/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.c:97:28:DecreaseBufferPointer	2
+C:/Users/jdrga/Downloads/stm32cubewl-v1-3-0/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.c:111:13:IsListEmpty	2
+C:/Users/jdrga/Downloads/stm32cubewl-v1-3-0/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.c:120:13:IsListFull	2
+C:/Users/jdrga/Downloads/stm32cubewl-v1-3-0/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.c:129:28:GetElement	4
+C:/Users/jdrga/Downloads/stm32cubewl-v1-3-0/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.c:151:6:LoRaMacConfirmQueueInit	1
+C:/Users/jdrga/Downloads/stm32cubewl-v1-3-0/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.c:168:6:LoRaMacConfirmQueueAdd	2
+C:/Users/jdrga/Downloads/stm32cubewl-v1-3-0/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.c:193:6:LoRaMacConfirmQueueRemoveLast	2
+C:/Users/jdrga/Downloads/stm32cubewl-v1-3-0/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.c:208:6:LoRaMacConfirmQueueRemoveFirst	2
+C:/Users/jdrga/Downloads/stm32cubewl-v1-3-0/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.c:223:6:LoRaMacConfirmQueueSetStatus	3
+C:/Users/jdrga/Downloads/stm32cubewl-v1-3-0/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.c:238:26:LoRaMacConfirmQueueGetStatus	3
+C:/Users/jdrga/Downloads/stm32cubewl-v1-3-0/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.c:253:6:LoRaMacConfirmQueueSetStatusCmn	4
+C:/Users/jdrga/Downloads/stm32cubewl-v1-3-0/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.c:275:26:LoRaMacConfirmQueueGetStatusCmn	1
+C:/Users/jdrga/Downloads/stm32cubewl-v1-3-0/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.c:280:6:LoRaMacConfirmQueueIsCmdActive	2
+C:/Users/jdrga/Downloads/stm32cubewl-v1-3-0/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.c:289:6:LoRaMacConfirmQueueHandleCb	4
+C:/Users/jdrga/Downloads/stm32cubewl-v1-3-0/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.c:326:9:LoRaMacConfirmQueueGetCnt	1
+C:/Users/jdrga/Downloads/stm32cubewl-v1-3-0/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacConfirmQueue.c:331:6:LoRaMacConfirmQueueIsFull	1

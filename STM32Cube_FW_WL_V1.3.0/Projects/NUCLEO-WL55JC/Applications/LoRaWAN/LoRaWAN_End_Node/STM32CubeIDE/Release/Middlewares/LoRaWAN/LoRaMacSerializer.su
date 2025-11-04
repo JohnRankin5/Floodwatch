@@ -1,0 +1,4 @@
+C:/Users/jdrga/Downloads/stm32cubewl-v1-3-0/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacSerializer.c:36:27:LoRaMacSerializerJoinRequest	8	static
+C:/Users/jdrga/Downloads/stm32cubewl-v1-3-0/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacSerializer.c:72:27:LoRaMacSerializerReJoinType1	8	static
+C:/Users/jdrga/Downloads/stm32cubewl-v1-3-0/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacSerializer.c:109:27:LoRaMacSerializerReJoinType0or2	8	static
+C:/Users/jdrga/Downloads/stm32cubewl-v1-3-0/STM32Cube_FW_WL_V1.3.0/Middlewares/Third_Party/LoRaWAN/Mac/LoRaMacSerializer.c:146:27:LoRaMacSerializerData	16	static

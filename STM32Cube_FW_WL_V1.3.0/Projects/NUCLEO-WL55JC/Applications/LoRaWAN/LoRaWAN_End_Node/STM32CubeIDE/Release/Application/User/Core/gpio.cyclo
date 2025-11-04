@@ -1,0 +1,2 @@
+../../../../../../../Drivers/STM32WLxx_HAL_Driver/Inc/stm32wlxx_ll_bus.h:449:22:LL_AHB2_GRP1_EnableClock	1
+C:/Users/jdrga/Downloads/stm32cubewl-v1-3-0/STM32Cube_FW_WL_V1.3.0/Projects/NUCLEO-WL55JC/Applications/LoRaWAN/LoRaWAN_End_Node/Core/Src/gpio.c:42:6:MX_GPIO_Init	1
