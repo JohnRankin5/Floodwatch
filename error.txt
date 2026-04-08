@@ -1,0 +1,38 @@
+Processing adafruit_feather_m0_lora (platform: atmelsam; board: adafruit_feather_m0; framework: arduino)
+--------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/atmelsam/adafruit_feather_m0.html
+PLATFORM: Atmel SAM (8.3.0) > Adafruit Feather M0
+HARDWARE: SAMD21G18A 48MHz, 32KB RAM, 256KB Flash
+DEBUG: Current (atmel-ice) External (atmel-ice, blackmagic, jlink)
+PACKAGES: 
+ - framework-arduino-samd-adafruit @ 1.10716.0 (1.7.16) 
+ - framework-cmsis @ 2.50400.181126 (5.4.0) 
+ - framework-cmsis-atmel @ 1.2.2 
+ - toolchain-gccarmnoneeabi @ 1.90301.200702 (9.3.1)
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 12 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- MCCI LoRaWAN LMIC library @ 4.1.1
+|-- SPI @ 1.0
+Building in release mode
+Compiling .pio\build\adafruit_feather_m0_lora\src\main.cpp.o
+In file included from src\main.cpp:3:
+.pio\libdeps\adafruit_feather_m0_lora\MCCI LoRaWAN LMIC library\src/hal/hal.h:25:7: error: 'u1_t' does not name a type
+   25 | const u1_t LMIC_UNUSED_PIN = lmic_pinmap::UNUSED_PIN;
+      |       ^~~~
+src\main.cpp:38:13: error: 'LMIC_UNUSED_PIN' was not declared in this scope
+   38 |     .rxtx = LMIC_UNUSED_PIN,
+      |             ^~~~~~~~~~~~~~~
+src\main.cpp:40:19: error: 'LMIC_UNUSED_PIN' was not declared in this scope
+   40 |     .dio = {3, 6, LMIC_UNUSED_PIN}, // DIO0 = pin 3, DIO1 = pin 6
+      |                   ^~~~~~~~~~~~~~~
+*** [.pio\build\adafruit_feather_m0_lora\src\main.cpp.o] Error 1
+========================== [FAILED] Took 2.52 seconds ==========================
+
+Environment               Status    Duration
+------------------------  --------  ------------
+adafruit_feather_m0_lora  FAILED    00:00:02.517
+==================== 1 failed, 0 succeeded in 00:00:02.517 ====================

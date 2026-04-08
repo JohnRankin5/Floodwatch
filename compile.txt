@@ -1,0 +1,91 @@
+Processing adafruit_feather_rp2040 (platform: https://github.com/maxgerhardt/platform-raspberrypi.git; board: adafruit_feather; framework: arduino)
+--------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/raspberrypi/adafruit_feather.html
+PLATFORM: Raspberry Pi RP2040 (1.19.0+sha.0a58a6a) > Feather RP2040
+HARDWARE: RP2040 133MHz, 256KB RAM, 8MB Flash
+DEBUG: Current (blackmagic) External (blackmagic, cmsis-dap, jlink, picoprobe, raspberrypi-swd)
+PACKAGES: 
+ - framework-arduinopico @ 1.50501.0+sha.275e73d 
+ - tool-picotool-rp2040-earlephilhower @ 5.140200.250530 (14.2.0) 
+ - tool-pioasm-rp2040-earlephilhower @ 5.140200.250530 (14.2.0) 
+ - toolchain-rp2040-earlephilhower @ 5.140200.250530 (14.2.0)
+Flash size: 8.00MB
+Sketch size: 8.00MB
+Filesystem size: 0.00MB
+PSRAM size: 0.00MB
+Maximium Sketch size: 8384512 EEPROM start: 0x107ff000 Filesystem start: 0x107ff000 Filesystem end: 0x107ff000
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 74 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- SPI @ 1.0
+Building in release mode
+Compiling .pio\build\adafruit_feather_rp2040\src\main.cpp.o
+Compiling .pio\build\adafruit_feather_rp2040\FrameworkArduino\lwip\src\apps\mdns\mdns_domain.c.o
+Compiling .pio\build\adafruit_feather_rp2040\FrameworkArduino\lwip\src\apps\mdns\mdns_out.c.o
+Compiling .pio\build\adafruit_feather_rp2040\FrameworkArduino\lwip\src\apps\mqtt\mqtt.c.o
+Compiling .pio\build\adafruit_feather_rp2040\FrameworkArduino\lwip\src\apps\netbiosns\netbiosns.c.o
+Compiling .pio\build\adafruit_feather_rp2040\FrameworkArduino\lwip\src\apps\smtp\smtp.c.o
+Compiling .pio\build\adafruit_feather_rp2040\FrameworkArduino\lwip\src\apps\snmp\snmp_asn1.c.o
+Compiling .pio\build\adafruit_feather_rp2040\FrameworkArduino\lwip\src\apps\snmp\snmp_core.c.o
+Compiling .pio\build\adafruit_feather_rp2040\FrameworkArduino\lwip\src\apps\snmp\snmp_mib2.c.o
+Compiling .pio\build\adafruit_feather_rp2040\FrameworkArduino\lwip\src\apps\snmp\snmp_mib2_icmp.c.o
+Compiling .pio\build\adafruit_feather_rp2040\FrameworkArduino\lwip\src\apps\snmp\snmp_mib2_interfaces.c.o
+Compiling .pio\build\adafruit_feather_rp2040\FrameworkArduino\lwip\src\apps\snmp\snmp_mib2_ip.c.o
+Compiling .pio\build\adafruit_feather_rp2040\FrameworkArduino\lwip\src\apps\snmp\snmp_mib2_snmp.c.o
+Compiling .pio\build\adafruit_feather_rp2040\FrameworkArduino\lwip\src\apps\snmp\snmp_mib2_system.c.o
+Compiling .pio\build\adafruit_feather_rp2040\FrameworkArduino\lwip\src\apps\snmp\snmp_mib2_tcp.c.o
+Compiling .pio\build\adafruit_feather_rp2040\FrameworkArduino\lwip\src\apps\snmp\snmp_mib2_udp.c.o
+Compiling .pio\build\adafruit_feather_rp2040\FrameworkArduino\lwip\src\apps\snmp\snmp_msg.c.o
+Compiling .pio\build\adafruit_feather_rp2040\FrameworkArduino\lwip\src\apps\snmp\snmp_netconn.c.o
+Compiling .pio\build\adafruit_feather_rp2040\FrameworkArduino\lwip\src\apps\snmp\snmp_pbuf_stream.c.o
+Compiling .pio\build\adafruit_feather_rp2040\FrameworkArduino\lwip\src\apps\snmp\snmp_raw.c.o
+src\main.cpp:2:10: fatal error: lmic.h: No such file or directory
+
+**************************************************************
+* Looking for lmic.h dependency? Check our library registry!
+*
+* CLI  > platformio lib search "header:lmic.h"
+* Web  > https://registry.platformio.org/search?q=header:lmic.h
+*
+**************************************************************
+
+    2 | #include <lmic.h>
+      |          ^~~~~~~~
+compilation terminated.
+*** [.pio\build\adafruit_feather_rp2040\src\main.cpp.o] Error 1
+========================== [FAILED] Took 2.94 seconds ==========================
+
+Processing adafruit_feather_m0_lora (platform: atmelsam; board: adafruit_feather_m0; framework: arduino)
+--------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/atmelsam/adafruit_feather_m0.html
+PLATFORM: Atmel SAM (8.3.0) > Adafruit Feather M0
+HARDWARE: SAMD21G18A 48MHz, 32KB RAM, 256KB Flash
+DEBUG: Current (atmel-ice) External (atmel-ice, blackmagic, jlink)
+PACKAGES: 
+ - framework-arduino-samd-adafruit @ 1.10716.0 (1.7.16) 
+ - framework-cmsis @ 2.50400.181126 (5.4.0) 
+ - framework-cmsis-atmel @ 1.2.2 
+ - toolchain-gccarmnoneeabi @ 1.90301.200702 (9.3.1)
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 12 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- MCCI LoRaWAN LMIC library @ 4.1.1
+|-- SPI @ 1.0
+Building in release mode
+Checking size .pio\build\adafruit_feather_m0_lora\firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [=         ]  14.7% (used 4824 bytes from 32768 bytes)
+Flash: [=         ]  13.1% (used 34256 bytes from 262144 bytes)
+========================= [SUCCESS] Took 2.42 seconds =========================
+
+Environment               Status    Duration
+------------------------  --------  ------------
+adafruit_feather_rp2040   FAILED    00:00:02.943
+adafruit_feather_m0_lora  SUCCESS   00:00:02.420
+==================== 1 failed, 1 succeeded in 00:00:05.363 ====================
