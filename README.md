@@ -26,7 +26,8 @@ This project abandons strict, cloud-dependent LoRaWAN protocols (like TTN) in fa
 
 ## 💻 Repository Structure
 
-*   **/src/main.cpp**: The C++ Arduino code for the Feather M0 nodes. Uses the `RadioHead` library. Contains built-in Mesh Repeater logic and a dedicated `MOCK_SENSOR_MODE` toggle to rapidly test the mesh without physically connecting ultrasonic probes.
+*   **/src/main.cpp**: The C++ Arduino code for the Feather M0 nodes. Uses the `RadioHead` library. Contains built-in Mesh Repeater logic.
+*   **/src/UltrasonicSensor.h** & **.cpp**: Newly added Object-Oriented class that encapsulates interacting with the SEN0311 ultrasonic probe. It includes a dedicated `MOCK_SENSOR_MODE` toggle to rapidly test the mesh without physically connecting sensors.
 *   **/gateway/lora_receive.py**: The CircuitPython script running on the Raspberry Pi 5 Gateway. Handles the OLED display output and the `seen_messages` deduplicator logic.
 *   **/platformio.ini**: The strict compiler definitions to flash the Adafruit Feather M0 seamlessly.
 
