@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoRa Mesh Dashboard</title>
+    <!-- Modern Typeface -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="glass-panel text-center">
+            <h1>Antigravity LoRa Network</h1>
+            <p>Live Telemetry Edge Dashboard</p>
+        </header>
+
+        <!-- Active Nodes Section -->
+        <section id="nodes-section" class="glass-panel">
+            <h2>Active Nodes</h2>
+            <div class="nodes-grid" id="nodes-grid">
+                <div class="node-card">
+                    <h3>...</h3>
+                    <p>Loading...</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recent Packets Section -->
+        <section id="data-section" class="glass-panel">
+            <h2>Recent Communications</h2>
+            <div class="table-responsive">
+                <table id="data-table">
+                    <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>From Node</th>
+                            <th>Seq ID</th>
+                            <th>RSSI / SNR</th>
+                            <th>Payload</th>
+                        </tr>
+                    </thead>
+                    <tbody id="data-body">
+                        <!-- Data populated dynamically via JS -->
+                        <tr><td colspan="5" style="text-align:center;">Listening for packets...</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </div>
+
+    <!-- Frontend Logic -->
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

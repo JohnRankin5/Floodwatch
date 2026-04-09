@@ -50,7 +50,20 @@ Accessing the hardware GPIO requires elevated permissions, so execute it using `
 
 ```bash
 cd /home/johnrankin/lora-receiver
-sudo lora_env/bin/python3 lora_receive.py
+sudo /home/johnrankin/lora_env/bin/python3 lora_receive.py
 ```
 
-If everything is wired and configured correctly, the OLED will say "LoRa Init OK" and it will start listening for packets from your Feather M0!
+If everything is wired and configured correctly, the OLED will say "LoRa Init OK" and it will start listening for packets from your Feather M0! It will also begin saving the received telemetry into a local `lora_data.db` SQLite database.
+
+## Viewing the Dashboard
+
+With the receiver running and collecting data, you can start the web dashboard to view the telemetry securely on your local network.
+
+Because the dashboard needs to write node location updates to the database created by the `root` receiver script, we must run the dashboard script with `sudo` as well:
+
+```bash
+cd /home/johnrankin/lora-receiver
+sudo /home/johnrankin/lora_env/bin/python3 dashboard.py
+```
+
+Open a web browser on your laptop and navigate to the Raspberry Pi's local IP address on port `5000` (e.g., `http://172.27.100.45:5000`). The dashboard will automatically refresh to show the latest sensor data, and you can click the `✏️` pencil icon on any node to manually assign text coordinates or locations.
